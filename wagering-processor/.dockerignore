@@ -1,0 +1,8 @@
+node_modules
+.git
+test
+scripts
+docker
+load-test-results
+*.md
+.env

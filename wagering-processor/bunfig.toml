@@ -1,0 +1,4 @@
+[test]
+# Os testes de integração e concorrência falam com Postgres e LocalStack reais.
+# O preload sobe migrations no banco de teste e expõe helpers compartilhados.
+preload = ["./test/setup.ts"]

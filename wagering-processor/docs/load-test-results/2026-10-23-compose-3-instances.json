@@ -1,0 +1,58 @@
+{
+  "run": "load-mvl0lu2p",
+  "target": "http://localhost:3000",
+  "instances": 3,
+  "config": {
+    "durationS": 30,
+    "concurrency": 32,
+    "wallets": 50,
+    "hotRatio": 0.2,
+    "replayRatio": 0.05
+  },
+  "requests": 26267,
+  "throughputRps": 874.1,
+  "latencyMs": {
+    "p50": 12.8,
+    "p95": 183.1,
+    "p99": 287.2,
+    "max": 621.1
+  },
+  "hotWalletLatencyMs": {
+    "p50": 103.9,
+    "p95": 277.9,
+    "p99": 406.6,
+    "requests": 5716
+  },
+  "coldWalletLatencyMs": {
+    "p50": 9.9,
+    "p95": 40.9,
+    "p99": 69.5,
+    "requests": 20551
+  },
+  "byStatus": {
+    "200": 26267
+  },
+  "byOutcome": {
+    "PROCESSED": 26267
+  },
+  "errorRate": 0,
+  "transportErrors": 0,
+  "replays": 1303,
+  "server": {
+    "lockConflicts": 0,
+    "lockWaitP95Ms": 214.639423076923,
+    "lockWaitP99Ms": 266.13432835821095,
+    "processingP95Ms": 242.7531855788393,
+    "outboxPublished": 48674,
+    "outboxPublishFailures": 0,
+    "outboxLagP50Ms": 63.86313925632747,
+    "outboxLagP95Ms": 491.5911478854739,
+    "outboxLagP99Ms": 891.5506433520293,
+    "outboxPendingAtEnd": 0,
+    "drainS": 2
+  },
+  "reconciliation": {
+    "wallets": 50,
+    "inconsistent": 0
+  }
+}

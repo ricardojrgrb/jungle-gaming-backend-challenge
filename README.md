@@ -1,3 +1,5 @@
+> **Solução:** a implementação está em [`wagering-processor/`](./wagering-processor/) — veja o [README](./wagering-processor/README.md) para subir e testar, e o [ARCHITECTURE.md](./wagering-processor/ARCHITECTURE.md) para as decisões. Autor: Ricardo Júnior Abreu da Silva ([@ricardojrgrb](https://github.com/ricardojrgrb)).
+
 # Technical Challenge — Distributed Wagering Processor
 
 ## Bem-vindo à Jungle Gaming 🦧
