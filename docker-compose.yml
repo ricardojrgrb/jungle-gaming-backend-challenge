@@ -1,3 +1,6 @@
+# Nome fixo: os nomes dos containers não dependem do nome da pasta.
+name: wagering-processor
+
 x-app-env: &app-env
   NODE_ENV: production
   PORT: "3000"

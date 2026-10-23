@@ -2,7 +2,7 @@
 
 Serviço financeiro distribuído que processa transações de apostas (`BET`, `WIN`, `LOSS`, `REFUND`, `ROLLBACK`) vindas de múltiplos provedores, por HTTP e por SQS, mantendo saldo materializado e ledger consistentes mesmo com mensagens duplicadas, fora de ordem ou processadas ao mesmo tempo por várias instâncias.
 
-Este diretório é a minha resposta ao desafio técnico descrito em [`../README.md`](../README.md). As decisões de arquitetura, trade-offs e limitações estão em [`ARCHITECTURE.md`](./ARCHITECTURE.md); o relatório do teste de carga em [`docs/LOAD_TEST.md`](./docs/LOAD_TEST.md).
+Este repositório é a minha resposta ao desafio técnico da [Jungle Gaming](https://github.com/junglegaming/backend-challenge). As decisões de arquitetura, trade-offs e limitações estão em [`ARCHITECTURE.md`](./ARCHITECTURE.md); o relatório do teste de carga em [`docs/LOAD_TEST.md`](./docs/LOAD_TEST.md).
 
 ## Stack
 
